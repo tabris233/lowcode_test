@@ -3,12 +3,19 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "页面1",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#F1DEFF",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,

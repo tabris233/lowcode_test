@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -163,6 +163,90 @@
                   "topRow": 4,
                   "bottomRow": 8,
                   "parentId": "zl1f2dx20i"
+                },
+                "Button1": {
+                  "isVisible": true,
+                  "animateLoading": true,
+                  "text": "提交",
+                  "buttonVariant": "PRIMARY",
+                  "placement": "CENTER",
+                  "widgetName": "Button1",
+                  "isDisabled": false,
+                  "isDefaultClickDisabled": true,
+                  "disabledWhenInvalid": false,
+                  "resetFormOnClick": false,
+                  "recaptchaType": "V3",
+                  "version": 1,
+                  "searchTags": [
+                    "click",
+                    "submit"
+                  ],
+                  "type": "BUTTON_WIDGET",
+                  "hideCard": false,
+                  "isDeprecated": false,
+                  "displayName": "按钮",
+                  "key": "ixkiv6suwk",
+                  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                  "widgetId": "eg13ft33no",
+                  "renderMode": "CANVAS",
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none",
+                  "isLoading": false,
+                  "parentColumnSpace": 6.3359375,
+                  "parentRowSpace": 10,
+                  "leftColumn": 44,
+                  "rightColumn": 60,
+                  "topRow": 4,
+                  "bottomRow": 8,
+                  "parentId": "zl1f2dx20i",
+                  "dynamicBindingPathList": [
+                    {
+                      "key": "buttonColor"
+                    },
+                    {
+                      "key": "borderRadius"
+                    }
+                  ],
+                  "logBlackList": {
+                    "isVisible": true,
+                    "animateLoading": true,
+                    "text": true,
+                    "buttonVariant": true,
+                    "placement": true,
+                    "widgetName": true,
+                    "isDisabled": true,
+                    "isDefaultClickDisabled": true,
+                    "disabledWhenInvalid": true,
+                    "resetFormOnClick": true,
+                    "recaptchaType": true,
+                    "version": true,
+                    "searchTags": true,
+                    "type": true,
+                    "hideCard": true,
+                    "isDeprecated": true,
+                    "replacement": true,
+                    "displayName": true,
+                    "key": true,
+                    "iconSVG": true,
+                    "isCanvas": true,
+                    "isMobile": true,
+                    "minHeight": true,
+                    "widgetId": true,
+                    "renderMode": true,
+                    "buttonColor": true,
+                    "borderRadius": true,
+                    "boxShadow": true,
+                    "isLoading": true,
+                    "parentColumnSpace": true,
+                    "parentRowSpace": true,
+                    "leftColumn": true,
+                    "rightColumn": true,
+                    "topRow": true,
+                    "bottomRow": true,
+                    "parentId": true,
+                    "dynamicBindingPathList": true
+                  }
                 }
               },
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -187,8 +271,8 @@
               "isCanvas": true,
               "displayName": "列表",
               "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
-              "topRow": 15,
-              "bottomRow": 55,
+              "topRow": 7,
+              "bottomRow": 73,
               "parentRowSpace": 10,
               "type": "LIST_WIDGET",
               "hideCard": false,
@@ -196,13 +280,10 @@
               "animateLoading": true,
               "parentColumnSpace": 18.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 4,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
                 },
                 {
                   "key": "boxShadow"
@@ -225,7 +306,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 400,
+                  "bottomRow": 390,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -259,7 +340,7 @@
                         "group"
                       ],
                       "topRow": 0,
-                      "bottomRow": 12,
+                      "bottomRow": 32,
                       "dragDisabled": true,
                       "type": "CONTAINER_WIDGET",
                       "hideCard": false,
@@ -281,6 +362,7 @@
                           "widgetName": "Canvas2",
                           "displayName": "Canvas",
                           "topRow": 0,
+                          "bottomRow": 400,
                           "parentRowSpace": 1,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
@@ -321,7 +403,7 @@
                               "key": "gwg0h8qno1",
                               "image": "{{currentItem.img}}",
                               "isDeprecated": false,
-                              "rightColumn": 16,
+                              "rightColumn": 35,
                               "objectFit": "cover",
                               "widgetId": "q2ume0tpib",
                               "logBlackList": {
@@ -382,8 +464,8 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 0,
-                              "bottomRow": 4,
+                              "topRow": 6,
+                              "bottomRow": 10,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
@@ -401,13 +483,13 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "leftColumn": 16,
+                              "leftColumn": 35,
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
                               "text": "{{currentItem.name}}",
                               "key": "4yrr78siwf",
                               "isDeprecated": false,
-                              "rightColumn": 28,
+                              "rightColumn": 47,
                               "textAlign": "LEFT",
                               "widgetId": "9kyyy7ns9i",
                               "logBlackList": {
@@ -472,8 +554,8 @@
                                 "paragraph",
                                 "label"
                               ],
-                              "topRow": 4,
-                              "bottomRow": 8,
+                              "topRow": 7,
+                              "bottomRow": 11,
                               "type": "TEXT_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
@@ -491,13 +573,13 @@
                                   "key": "borderRadius"
                                 }
                               ],
-                              "leftColumn": 16,
+                              "leftColumn": 47,
                               "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
                               "text": "{{currentItem.id}}",
                               "key": "4yrr78siwf",
                               "isDeprecated": false,
-                              "rightColumn": 24,
+                              "rightColumn": 55,
                               "textAlign": "LEFT",
                               "widgetId": "577l5huokf",
                               "logBlackList": {
@@ -551,6 +633,90 @@
                               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                               "fontSize": "1rem",
                               "textStyle": "BODY"
+                            },
+                            {
+                              "resetFormOnClick": false,
+                              "boxShadow": "none",
+                              "widgetName": "Button1",
+                              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                              "displayName": "按钮",
+                              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+                              "searchTags": [
+                                "click",
+                                "submit"
+                              ],
+                              "topRow": 4,
+                              "bottomRow": 8,
+                              "parentRowSpace": 10,
+                              "type": "BUTTON_WIDGET",
+                              "hideCard": false,
+                              "animateLoading": true,
+                              "parentColumnSpace": 6.3359375,
+                              "leftColumn": 55,
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "buttonColor"
+                                },
+                                {
+                                  "key": "borderRadius"
+                                }
+                              ],
+                              "text": "提交",
+                              "isDisabled": false,
+                              "key": "ixkiv6suwk",
+                              "isDeprecated": false,
+                              "rightColumn": 64,
+                              "isDefaultClickDisabled": true,
+                              "widgetId": "eg13ft33no",
+                              "logBlackList": {
+                                "isVisible": true,
+                                "animateLoading": true,
+                                "text": true,
+                                "buttonVariant": true,
+                                "placement": true,
+                                "widgetName": true,
+                                "isDisabled": true,
+                                "isDefaultClickDisabled": true,
+                                "disabledWhenInvalid": true,
+                                "resetFormOnClick": true,
+                                "recaptchaType": true,
+                                "version": true,
+                                "searchTags": true,
+                                "type": true,
+                                "hideCard": true,
+                                "isDeprecated": true,
+                                "replacement": true,
+                                "displayName": true,
+                                "key": true,
+                                "iconSVG": true,
+                                "isCanvas": true,
+                                "isMobile": true,
+                                "minHeight": true,
+                                "widgetId": true,
+                                "renderMode": true,
+                                "buttonColor": true,
+                                "borderRadius": true,
+                                "boxShadow": true,
+                                "isLoading": true,
+                                "parentColumnSpace": true,
+                                "parentRowSpace": true,
+                                "leftColumn": true,
+                                "rightColumn": true,
+                                "topRow": true,
+                                "bottomRow": true,
+                                "parentId": true,
+                                "dynamicBindingPathList": true
+                              },
+                              "isVisible": true,
+                              "recaptchaType": "V3",
+                              "version": 1,
+                              "parentId": "zl1f2dx20i",
+                              "renderMode": "CANVAS",
+                              "isLoading": false,
+                              "disabledWhenInvalid": false,
+                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                              "buttonVariant": "PRIMARY",
+                              "placement": "CENTER"
                             }
                           ],
                           "key": "agqfpquc1t",
@@ -601,12 +767,13 @@
               "privateWidgets": {
                 "Image1": true,
                 "Text1": true,
-                "Text2": true
+                "Text2": true,
+                "Button1": true
               },
               "key": "gm6f4lf2k4",
               "backgroundColor": "transparent",
               "isDeprecated": false,
-              "rightColumn": 28,
+              "rightColumn": 50,
               "itemBackgroundColor": "#FFFFFF",
               "widgetId": "mdnf18r6aj",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -614,7 +781,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+              "borderRadius": "1.5rem"
             }
           ]
         },
